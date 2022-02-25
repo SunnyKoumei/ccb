@@ -1,0 +1,194 @@
+/* Helper Styles: Do not Delete */
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-image: url(chalkboard.jpg);
+	background-size: cover;
+}
+
+
+
+
+/* Put your CSS Styles Below this Line */
+
+h1 { 
+	font-family: 'Neonderthaw', cursive;
+	color: #E4B19B;
+	font-size: 350px;
+}
+
+h2 {
+	font-family: 'Dongle', sans-serif;
+	font-size: 100px;
+	margin:  0;
+	line-height: 50px;
+}
+
+h3 {
+	font-family: 'Dongle', sans-serif;
+}
+
+h4 {
+	font-family: 'Dongle', sans-serif;
+}
+
+h5 {
+	font-family: 'Dongle', sans-serif;
+}
+
+h6 {
+	font-family: 'Dongle', sans-serif;
+}
+
+p {
+	font-family: 'Dongle', sans-serif;
+	font-size: 30px;
+	margin: 0;
+}
+
+header img {
+	width:  100%;
+}
+
+nav {
+	display: inline-block;
+	width:  200px;
+}
+nav ul {
+	list-style-type: none;
+	width: 150px;
+	border-top-right-radius:  20px;
+	border-bottom-right-radius:  20px;
+	margin:  0;
+	padding:  0;
+}
+
+nav ul li {
+	display: block;
+	text-align: center;
+	font-family: 'Dongle', sans-serif;
+	margin-bottom:  5px;
+}
+
+nav ul li a {
+	background-color: #E4B19B;
+	padding: 13px 0;
+	width:  100%;
+	display: block;
+	color:  #000;
+	text-decoration: none;
+	transition: background-color ease .3s;
+	font-size: 24px;
+	border-top:  2px solid #AD96A4;
+	border-right:  2px solid #AD96A4;
+	border-bottom:  2px solid #AD96A4;
+	border-top-right-radius:  20px;
+	border-bottom-right-radius:  20px;
+}
+
+nav ul li a:hover {
+	background-color: #AD96A4;
+	border-color: #E4B19B;
+	color:  #E4B19B;
+}
+
+.home-text {
+	padding:  50px 5%;
+}
+
+.intro {
+	display: flex;
+}
+.intro h1 {
+	width:  calc(100% - 200px);
+	font-size:  80px;
+	text-align: center;
+	color: #E4B19B
+}
+
+.specials{ 
+	color: #E4B19B; 
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 150px;
+}
+
+.specials-img {
+	width: 100%;
+}
+
+.hours {
+	font-size: 40px;
+	color:#E4B19B;
+}
+
+footer {
+	background-color:  #E4B19B;
+	padding:  20px 5%;
+	border:  5px solid black; 
+	border-radius:  50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:  60%;
+	margin: 0% 10%;
+
+}
+
+.contact h3 {
+	font-size:  30px;
+	line-height: 30px;
+	margin:  0;
+}
+
+.contact p {
+	font-size:  24px;
+	line-height: 24px;
+	margin: 0;
+}
+
+.social img{ 
+margin: 10px;
+ }
+
+ .menu-content {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	width:  100%;
+ }
+
+ .hot-drinks {
+ 	color: #E4B19B; 
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 20px;
+	padding: 70px 0;
+ 	
+ }
+
+ .cold-drinks {
+ 	color: #E4B19B; 
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 20px;
+	padding: 70px 0;
+ }
+
+ .food { 
+ 	color: #E4B19B; 
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 70px 0;
+
+  }
+
+
+
+
